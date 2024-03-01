@@ -5,13 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+
+
+        }
+
+        .card {
+            width: 500px;
+            height: fit-content;
+            border: 3px solid black;
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+
+        .card-image {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .card-image img {
+            width: 70%;
+            height: 70%;
+        }
+
+        .card-titulo {
+            font-size: 35px;
+        }
+
+        .card-titulo-nome {
+            color: rgb(51, 10, 117);
+        }
+
+        .card-mensagem span {
+            font-weight: bold;
+            color: #b11a1a;
+        }
+    </style>
 </head>
 
-<body style="margin: 0;">
+<body>
     <div class="card">
         <div class="card-image">
-            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="" style="width: 70%; height: 70%;">
+            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png">
         </div>
 
         <div>
@@ -21,12 +59,12 @@
     </div>
 
     <div class="card">
-        <div class="card-image""width: 100px; border-radius: 50%;">
-            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png" alt="" style="width: 70%; height: 70%;">
+        <div class="card-image">
+            <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png">
         </div>
 
         <div>
-            <h1><span style="font-size: 35px;">Meu nome é: <span class="card-titulo-nome">Fábio</span></span></h1>
+            <h1><span>Meu nome é: <span class="card-titulo-nome">Fábio</span></span></h1>
             <p class="card-mensagem"><b> Mensagem:</b> <span> Ser ou não ser, eis a questão! <b></b></span></p>
         </div>
     </div>
